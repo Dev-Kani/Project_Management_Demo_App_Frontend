@@ -3,7 +3,7 @@ import logo from '../assets/image/graphql_logo.png'
 
 const Header = () => {
   return (
-    <nav className='navbar bg-light mb-4 p-0'>
+    <nav className='navbar bg-light mb-4 py-3'>
       <div className='container'>
         <Link className='navbar-brand' to='/'>
           <div className='d-flex'>
