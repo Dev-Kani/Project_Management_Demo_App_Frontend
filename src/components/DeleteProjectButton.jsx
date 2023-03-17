@@ -14,8 +14,9 @@ export default function DeleteProjectButton({ projectId }) {
   })
 
   const handleDeleteProject = () => {
-    if (window.confirm(`Are you sure you want to delete this project? (action cannot be undone)`)) {
-      deleteProject()
+    if (window.confirm(`Are you sure you want to delete this project? (action cannot be undone).`)) {
+      // deleteProject()
+      alert(`You are not authenticated to do this!`)
     }
   }
 

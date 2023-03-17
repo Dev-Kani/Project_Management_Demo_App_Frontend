@@ -23,8 +23,8 @@ export default function ClientRow({ client }) {
   })
 
   const handleDelete = () => {
-    if (window.confirm(`Are you sure you want to delete ${client.name}?`)) {
-      deleteClient()
+    if (window.confirm(`This action was made possible using Apollo Client. Are you sure you want to delete ${client.name}? Even if you say 'ok', I can't let you delete this client right now.`)) {
+      // deleteClient()
     }
   }
 

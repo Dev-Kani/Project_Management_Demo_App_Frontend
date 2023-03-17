@@ -31,7 +31,8 @@ export default function EditProjectForm({ project }) {
       return alert("Please fill out all fields")
     }
 
-    updateProject(name, description, status)
+    // updateProject(name, description, status)
+    alert(`This action is functional but I cannot let you update this project right now.`)
   }
 
   return (
